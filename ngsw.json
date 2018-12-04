@@ -28,7 +28,10 @@
         "https://iarigby.github.io/berrycards/assets/icons/icon-384x384.png",
         "https://iarigby.github.io/berrycards/assets/icons/icon-512x512.png",
         "https://iarigby.github.io/berrycards/assets/icons/icon-72x72.png",
-        "https://iarigby.github.io/berrycards/assets/icons/icon-96x96.png"
+        "https://iarigby.github.io/berrycards/assets/icons/icon-96x96.png",
+        "https://iarigby.github.io/berrycards/assets/icons/ios/ios-appicon-120-120.png",
+        "https://iarigby.github.io/berrycards/assets/icons/ios/ios-appicon-152-152.png",
+        "https://iarigby.github.io/berrycards/assets/icons/ios/ios-appicon-180-180.png"
       ],
       "patterns": []
     }
@@ -43,8 +46,11 @@
     "https://iarigby.github.io/berrycards/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
     "https://iarigby.github.io/berrycards/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
     "https://iarigby.github.io/berrycards/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://iarigby.github.io/berrycards/assets/icons/ios/ios-appicon-120-120.png": "57ab0ca476a81d59bfcbc90952037119f5241b49",
+    "https://iarigby.github.io/berrycards/assets/icons/ios/ios-appicon-152-152.png": "9186988e856eaa4a0e734d3d3cbb6c4a1cff3ff3",
+    "https://iarigby.github.io/berrycards/assets/icons/ios/ios-appicon-180-180.png": "d8a70b6d19dce6bd3d561173239a7294e7e3b2dd",
     "https://iarigby.github.io/berrycards/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "https://iarigby.github.io/berrycards/index.html": "7849d9cdb6fcc92379ad90e0a0a6ee30b7d5d6fb",
+    "https://iarigby.github.io/berrycards/index.html": "6ebd3a1f1420d39c507f8a7394b6db3e348cef8e",
     "https://iarigby.github.io/berrycards/main.f2340b9d8acd7011da2c.js": "004d24ee0757ba17765e1e70d742434491f95c29",
     "https://iarigby.github.io/berrycards/polyfills.b7b7642b82b357ed611c.js": "ef2035f0504b4f77eac510c33595c81a5d09e33f",
     "https://iarigby.github.io/berrycards/runtime.a66f828dca56eeb90e02.js": "078e320cc6fdaf355836c3b1c52b059cdd33fc7e",
