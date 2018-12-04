@@ -1,6 +1,0 @@
-<div id="session" *ngIf="currentCard">
-  <button (click)="changeCard(-1)"><</button>
-  <app-card [card]="currentCard" [revealed]="revealed" (click)="toggleReveal()"></app-card>
-  <button (click)="changeCard()">></button>
-</div>
-<div *ngIf="!currentCard"> there don't seem to be any cards here <a href="/deck/{{deck.name}}">add some </a> </div>
