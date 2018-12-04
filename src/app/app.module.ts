@@ -10,6 +10,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { DecksComponent } from './decks/decks.component';
 import { CardsComponent } from './cards/cards.component';
 import { DeckPreviewComponent } from './deck-preview/deck-preview.component';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,8 @@ import { DeckPreviewComponent } from './deck-preview/deck-preview.component';
   imports: [
     BrowserModule,
     FormsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ServiceWorkerModule.register('/ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [],
   bootstrap: [AppComponent]
