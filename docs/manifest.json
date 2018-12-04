@@ -5,8 +5,8 @@
   "theme_color": "#1976d2",
   "background_color": "#d3d3d3",
   "display": "standalone",
-  "scope": "/berrycards/docs",
-  "start_url": "/berrycards/docs",
+  "scope": "/berrycards/docs/",
+  "start_url": "/berrycards/docs/",
   "icons": [
     {
       "src": "assets/icons/icon-72x72.png",
