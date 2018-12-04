@@ -1,23 +1,9 @@
-<h3>decks</h3>
-<div *ngFor="let deck of decks" (click)="currentDeck=deck">
-  <app-deck [deck]="deck">  </app-deck>
-</div>
-<input #newDeck placeholder="enter deck name" (keyup.enter)="addDeck(newDeck.value)"/>
-<button (click)="addDeck(newDeck.value)">add deck</button>
-<div *ngIf="currentDeck">
-  <h3>cards in {{currentDeck.name}}</h3>
-  <div>
-    <div *ngFor="let card of currentDeck.cards">
-      {{card.question}}
-    </div>
-    <input #newCardQuestion placeholder="type question"/>
-    <input #newCardAnswer placeholder="type answer"/>
-    <button (click)="addCard(newCardQuestion.value, newCardAnswer.value)">
-      add card
-    </button>
-  </div>
-</div>
-<div *ngIf="currentDeck && currentDeck.cards.length >= 1">
-  <h3>session</h3>
-  <app-session [deck]="currentDeck"></app-session>
-</div>
+
+<!--<div *ngIf="currentDeck">-->
+<!--</div>-->
+<!--<div *ngIf="currentDeck && currentDeck.cards.length >= 1">-->
+  <!--<h3>session</h3>-->
+  <!--<app-session [deck]="currentDeck"></app-session>-->
+<!--</div>-->
+<h3>Flashcards app</h3>
+<router-outlet></router-outlet>

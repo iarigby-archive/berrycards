@@ -1,0 +1,6 @@
+<h3>decks</h3>
+<div *ngFor="let deck of decks">
+  <app-deck-preview [deck]="deck">  </app-deck-preview>
+</div>
+<input #newDeck placeholder="enter deck name" (keyup.enter)="addDeck(newDeck.value)"/>
+<button (click)="addDeck(newDeck.value)">add deck</button>
