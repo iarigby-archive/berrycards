@@ -1,6 +1,2 @@
-<div class="deck">
-  <div> {{deck.name}} </div>
-  <div> {{deck.cards.length}} cards</div>
-  <button>add cards</button>
-  <button *ngIf="deck.cards.length >= 1">practice</button>
-</div>
+<app-deck-preview [deck]="this.deck"> </app-deck-preview>
+<app-cards [currentDeck]="this.deck"></app-cards>

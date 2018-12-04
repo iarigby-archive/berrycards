@@ -1,5 +1,6 @@
-<div>
-  <button (click)="currentCard = deck.getCard(-1)">previous</button>
-  <app-card [card]="currentCard"></app-card>
-  <button (click)="currentCard = deck.getCard()">next</button>
+<div id="session" *ngIf="currentCard">
+  <button (click)="changeCard(-1)"><</button>
+  <app-card [card]="currentCard" [revealed]="revealed" (click)="toggleReveal()"></app-card>
+  <button (click)="changeCard()">></button>
 </div>
+<div *ngIf="!currentCard"> there don't seem to be any cards here <a href="/deck/{{deck.name}}">add some </a> </div>

@@ -1,5 +1,7 @@
-import {Component, Input, OnInit} from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {Deck} from '../deck';
+import {DeckService} from '../deck.service';
+import {ActivatedRoute} from '@angular/router';
 
 @Component({
   selector: 'app-deck',
@@ -7,11 +9,16 @@ import {Deck} from '../deck';
   styleUrls: ['./deck.component.css']
 })
 export class DeckComponent implements OnInit {
-  @Input() deck: Deck;
+  deck: Deck;
 
-  constructor() { }
+  constructor(
+    private route: ActivatedRoute,
+    private deckService: DeckService
+  ) { }
 
   ngOnInit() {
+    const name = this.route.snapshot.paramMap.get('name');
+    this.deck = this.deckService.getDeckByName(name);
   }
 
 }

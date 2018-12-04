@@ -9,7 +9,6 @@ export class Deck {
   }
   getCard(next = 1) {
     const card = this.cards[this.currentIndex];
-    console.log(this.currentIndex);
     this.currentIndex = Math.abs(this.currentIndex + next) % this.cards.length;
     return card;
   }

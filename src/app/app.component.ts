@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import {Deck} from './deck';
-import {SimpleCard} from './card';
+import {DeckService} from './deck.service';
 
 @Component({
   selector: 'app-root',
@@ -8,12 +8,8 @@ import {SimpleCard} from './card';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  decks: Deck[] = [new Deck('a')];
-  currentDeck;
-  addDeck(deckName) {
-    this.decks.push(new Deck(deckName));
-  }
-  addCard(question, answer) {
-    this.currentDeck.cards.push(new SimpleCard(question, answer));
-  }
+  decks: Deck[] = this.deckService.getDecks();
+  constructor(
+    private deckService: DeckService
+  ) {}
 }

@@ -1,0 +1,6 @@
+<div class="deck">
+  <div> {{deck.name}} </div>
+  <div> {{deck.cards.length}} cards</div>
+  <a routerLink="/deck/{{deck.name}}"><button>add cards</button></a>
+  <a *ngIf="deck.cards && deck.cards.length >= 1" routerLink="/practice/{{deck.name}}"><button>practice</button></a>
+</div>
