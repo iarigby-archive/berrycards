@@ -8,13 +8,10 @@ import {SimpleCard} from '../card';
 })
 export class CardComponent implements OnInit {
   @Input() card: SimpleCard;
-  revealed = false;
+  @Input() revealed;
   constructor() { }
 
   ngOnInit() {
-  }
-  toggleReveal() {
-    this.revealed = !this.revealed;
   }
 
 }

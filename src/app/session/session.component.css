@@ -1,0 +1,17 @@
+#session {
+  width: 400px;
+  margin: auto;
+  display: flex;
+}
+
+#session button {
+  height: 25px;
+  width: 25px;
+}
+
+#session div, #session button {
+  padding: 20px;
+}
+#session div, #session button {
+  margin: auto;
+}

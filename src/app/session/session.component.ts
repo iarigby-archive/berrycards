@@ -12,6 +12,7 @@ import {DeckService} from '../deck.service';
 export class SessionComponent implements OnInit {
   deck: Deck;
   currentCard: SimpleCard;
+  revealed = false;
 
   constructor(
     private route: ActivatedRoute,
@@ -21,6 +22,13 @@ export class SessionComponent implements OnInit {
     const name = this.route.snapshot.paramMap.get('name');
     this.deck = this.deckService.getDeckByName(name);
     this.currentCard = this.deck.getCard();
+  }
+  changeCard(n = 1) {
+    this.revealed = false;
+    this.currentCard = this.deck.getCard(n);
+  }
+  toggleReveal() {
+    this.revealed = !this.revealed;
   }
 
 }
