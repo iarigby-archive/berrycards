@@ -5,6 +5,7 @@ import {DeckComponent} from './deck/deck.component';
 import {DecksComponent} from './decks/decks.component';
 
 const routes: Routes = [
+  { path: '', redirectTo: '/decks', pathMatch: 'full'},
   { path: 'practice/:name', component: SessionComponent },
   { path: 'deck/:name', component: DeckComponent},
   { path: 'decks', component: DecksComponent }
