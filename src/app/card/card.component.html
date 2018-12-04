@@ -1,0 +1,12 @@
+<div class="card">
+  <div class="card-front" *ngIf="!revealed" (click)="toggleReveal()">
+    <p class="card-content">
+      {{card.question}}
+    </p>
+  </div>
+  <div class="card-back" *ngIf="revealed" (click)="toggleReveal()">
+    <p class="card-content">
+      {{card.answer}}
+    </p>
+  </div>
+</div>

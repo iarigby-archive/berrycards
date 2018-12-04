@@ -1,0 +1,5 @@
+<div>
+  <button (click)="currentCard = deck.getCard(-1)">previous</button>
+  <app-card [card]="currentCard"></app-card>
+  <button (click)="currentCard = deck.getCard()">next</button>
+</div>

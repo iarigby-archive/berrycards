@@ -1,0 +1,6 @@
+<div class="deck">
+  <div> {{deck.name}} </div>
+  <div> {{deck.cards.length}} cards</div>
+  <button>add cards</button>
+  <button *ngIf="deck.cards.length >= 1">practice</button>
+</div>
