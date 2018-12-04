@@ -12,6 +12,7 @@ import { CardsComponent } from './cards/cards.component';
 import { DeckPreviewComponent } from './deck-preview/deck-preview.component';
 import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { environment } from '../environments/environment';
     SessionComponent,
     DecksComponent,
     CardsComponent,
-    DeckPreviewComponent
+    DeckPreviewComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
