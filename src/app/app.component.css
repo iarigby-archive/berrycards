@@ -1,0 +1,13 @@
+#main {
+  border-radius: 25px;
+  background: #93d6cf;
+  padding: 20px;
+  width: 600px;
+  margin: auto;
+  height: 95%;
+}
+
+.nav-button {
+  background: none;
+  border: none;
+}

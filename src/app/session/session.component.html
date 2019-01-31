@@ -1,6 +1,18 @@
 <div id="session" *ngIf="currentCard">
-  <button (click)="changeCard(-1)"><</button>
-  <app-card [card]="currentCard" [revealed]="revealed" (click)="toggleReveal()"></app-card>
-  <button (click)="changeCard()">></button>
+  <div class="card">
+    <div class="card-content">
+      <app-card [card]="currentCard" [revealed]="revealed" (click)="toggleReveal()"></app-card>
+      <footer class="card-footer">
+        <div *ngFor="let score of scores"
+             class="card-footer-item"
+             (click)="changeCard(score)">
+          <div [className]="(score == currentCard.mastery) ? 'currentScore' : ''"> {{score}} </div>
+        </div>
+      </footer>
+      <button (click)="changeCard(currentCard.mastery)">skip</button>
+    </div>
+  </div>
 </div>
-<div *ngIf="!currentCard"> there don't seem to be any cards here <a href="/deck/{{deck.name}}">add some </a> </div>
+<button (click)="finish()">finish session</button>
+<div *ngIf="!currentCard"> there don't seem to be any cards here <a href="/deck/{{deck.name}}">add some </a>
+</div>

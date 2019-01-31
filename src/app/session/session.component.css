@@ -1,7 +1,6 @@
 #session {
-  width: 400px;
+  width: 80%;
   margin: auto;
-  display: flex;
 }
 
 #session button {
@@ -9,9 +8,18 @@
   width: 25px;
 }
 
-#session div, #session button {
+#session button {
   padding: 20px;
-}
-#session div, #session button {
   margin: auto;
+}
+
+.currentScore {
+  font-weight: bold;
+  color: darkblue;
+}
+
+.score {
+  width: 10%;
+  height: 10%;
+  margin:auto;
 }
