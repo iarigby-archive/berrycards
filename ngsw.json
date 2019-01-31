@@ -1,18 +1,18 @@
 {
   "configVersion": 1,
-  "index": "https://iarigbt.github.io/berrycards/index.html",
+  "index": "https://iarigby.github.io/berrycards/index.html",
   "assetGroups": [
     {
       "name": "app",
       "installMode": "prefetch",
       "updateMode": "prefetch",
       "urls": [
-        "https://iarigbt.github.io/berrycards/favicon.ico",
-        "https://iarigbt.github.io/berrycards/index.html",
-        "https://iarigbt.github.io/berrycards/main.69491d81f6ccfd738850.js",
-        "https://iarigbt.github.io/berrycards/polyfills.b7b7642b82b357ed611c.js",
-        "https://iarigbt.github.io/berrycards/runtime.a66f828dca56eeb90e02.js",
-        "https://iarigbt.github.io/berrycards/styles.eca70bd96ac65335c52e.css"
+        "https://iarigby.github.io/berrycards/favicon.ico",
+        "https://iarigby.github.io/berrycards/index.html",
+        "https://iarigby.github.io/berrycards/main.259762de6644841834fe.js",
+        "https://iarigby.github.io/berrycards/polyfills.b7b7642b82b357ed611c.js",
+        "https://iarigby.github.io/berrycards/runtime.a66f828dca56eeb90e02.js",
+        "https://iarigby.github.io/berrycards/styles.eca70bd96ac65335c52e.css"
       ],
       "patterns": []
     },
@@ -21,40 +21,40 @@
       "installMode": "lazy",
       "updateMode": "prefetch",
       "urls": [
-        "https://iarigbt.github.io/berrycards/assets/icons/icon-128x128.png",
-        "https://iarigbt.github.io/berrycards/assets/icons/icon-144x144.png",
-        "https://iarigbt.github.io/berrycards/assets/icons/icon-152x152.png",
-        "https://iarigbt.github.io/berrycards/assets/icons/icon-192x192.png",
-        "https://iarigbt.github.io/berrycards/assets/icons/icon-384x384.png",
-        "https://iarigbt.github.io/berrycards/assets/icons/icon-512x512.png",
-        "https://iarigbt.github.io/berrycards/assets/icons/icon-72x72.png",
-        "https://iarigbt.github.io/berrycards/assets/icons/icon-96x96.png",
-        "https://iarigbt.github.io/berrycards/assets/icons/ios/ios-appicon-120-120.png",
-        "https://iarigbt.github.io/berrycards/assets/icons/ios/ios-appicon-152-152.png",
-        "https://iarigbt.github.io/berrycards/assets/icons/ios/ios-appicon-180-180.png"
+        "https://iarigby.github.io/berrycards/assets/icons/icon-128x128.png",
+        "https://iarigby.github.io/berrycards/assets/icons/icon-144x144.png",
+        "https://iarigby.github.io/berrycards/assets/icons/icon-152x152.png",
+        "https://iarigby.github.io/berrycards/assets/icons/icon-192x192.png",
+        "https://iarigby.github.io/berrycards/assets/icons/icon-384x384.png",
+        "https://iarigby.github.io/berrycards/assets/icons/icon-512x512.png",
+        "https://iarigby.github.io/berrycards/assets/icons/icon-72x72.png",
+        "https://iarigby.github.io/berrycards/assets/icons/icon-96x96.png",
+        "https://iarigby.github.io/berrycards/assets/icons/ios/ios-appicon-120-120.png",
+        "https://iarigby.github.io/berrycards/assets/icons/ios/ios-appicon-152-152.png",
+        "https://iarigby.github.io/berrycards/assets/icons/ios/ios-appicon-180-180.png"
       ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "https://iarigbt.github.io/berrycards/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
-    "https://iarigbt.github.io/berrycards/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
-    "https://iarigbt.github.io/berrycards/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
-    "https://iarigbt.github.io/berrycards/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
-    "https://iarigbt.github.io/berrycards/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
-    "https://iarigbt.github.io/berrycards/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
-    "https://iarigbt.github.io/berrycards/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
-    "https://iarigbt.github.io/berrycards/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
-    "https://iarigbt.github.io/berrycards/assets/icons/ios/ios-appicon-120-120.png": "57ab0ca476a81d59bfcbc90952037119f5241b49",
-    "https://iarigbt.github.io/berrycards/assets/icons/ios/ios-appicon-152-152.png": "9186988e856eaa4a0e734d3d3cbb6c4a1cff3ff3",
-    "https://iarigbt.github.io/berrycards/assets/icons/ios/ios-appicon-180-180.png": "d8a70b6d19dce6bd3d561173239a7294e7e3b2dd",
-    "https://iarigbt.github.io/berrycards/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
-    "https://iarigbt.github.io/berrycards/index.html": "63d3b41d064790fe3af527467b3078d2288fba29",
-    "https://iarigbt.github.io/berrycards/main.69491d81f6ccfd738850.js": "91d8b7f307bfce54ad8d3fecdcc9e2a4f86fcb63",
-    "https://iarigbt.github.io/berrycards/polyfills.b7b7642b82b357ed611c.js": "ef2035f0504b4f77eac510c33595c81a5d09e33f",
-    "https://iarigbt.github.io/berrycards/runtime.a66f828dca56eeb90e02.js": "078e320cc6fdaf355836c3b1c52b059cdd33fc7e",
-    "https://iarigbt.github.io/berrycards/styles.eca70bd96ac65335c52e.css": "6389a4e16b1cad6cd827d7354c8e5c6fa2618165"
+    "https://iarigby.github.io/berrycards/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "https://iarigby.github.io/berrycards/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "https://iarigby.github.io/berrycards/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "https://iarigby.github.io/berrycards/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "https://iarigby.github.io/berrycards/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://iarigby.github.io/berrycards/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://iarigby.github.io/berrycards/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "https://iarigby.github.io/berrycards/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "https://iarigby.github.io/berrycards/assets/icons/ios/ios-appicon-120-120.png": "57ab0ca476a81d59bfcbc90952037119f5241b49",
+    "https://iarigby.github.io/berrycards/assets/icons/ios/ios-appicon-152-152.png": "9186988e856eaa4a0e734d3d3cbb6c4a1cff3ff3",
+    "https://iarigby.github.io/berrycards/assets/icons/ios/ios-appicon-180-180.png": "d8a70b6d19dce6bd3d561173239a7294e7e3b2dd",
+    "https://iarigby.github.io/berrycards/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "https://iarigby.github.io/berrycards/index.html": "4a0f662fb0bc820b0d715fe20df9e330132561fe",
+    "https://iarigby.github.io/berrycards/main.259762de6644841834fe.js": "6b6cc20bfc65f2a3835acc2379d8a0a489d6b10f",
+    "https://iarigby.github.io/berrycards/polyfills.b7b7642b82b357ed611c.js": "ef2035f0504b4f77eac510c33595c81a5d09e33f",
+    "https://iarigby.github.io/berrycards/runtime.a66f828dca56eeb90e02.js": "078e320cc6fdaf355836c3b1c52b059cdd33fc7e",
+    "https://iarigby.github.io/berrycards/styles.eca70bd96ac65335c52e.css": "6389a4e16b1cad6cd827d7354c8e5c6fa2618165"
   },
   "navigationUrls": [
     {
