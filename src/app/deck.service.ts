@@ -13,8 +13,8 @@ const httpOptions = {
 export class DeckService {
 
   decks: Deck[] = [];
-  // private backendUrl = 'https://berrycards.herokuapp.com/healthCheck';
-  private backendUrl = 'http://localhost:9000';
+  private backendUrl = 'https://berrycards.herokuapp.com';
+  // private backendUrl = 'http://localhost:9000';
 
   constructor(private http: HttpClient) {
     this.getDecks()
