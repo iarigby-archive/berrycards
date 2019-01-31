@@ -1,0 +1,4 @@
+ng build --prod --base-href "https://iarigby.github.io/berrycards/"
+git checkout gh-pages
+yes | cp -rf dist/berrycards/* .
+git add . && git commit -m "I guess all commits have the same message now" && git push
