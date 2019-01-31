@@ -14,7 +14,7 @@ export class DeckService {
 
   decks: Deck[] = [];
   // private backendUrl = 'https://berrycards.herokuapp.com/healthCheck';
-  private backendUrl = 'http://localhost:9000';
+  private backendUrl = 'https://berrycards.herokuapp.com';
 
   constructor(private http: HttpClient) {
     this.getDecks()
