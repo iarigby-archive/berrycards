@@ -16,9 +16,17 @@ export class DeckComponent implements OnInit {
     private deckService: DeckService
   ) { }
 
+
   ngOnInit() {
     const name = this.route.snapshot.paramMap.get('name');
-    this.deck = this.deckService.getDeckByName(name);
+    this.deckService.getDeckByName(name)
+      .subscribe(deck => this.deck = deck);
+  }
+
+  update() {
+    console.log(this.deck)
+    this.deckService.update(this.deck)
+      .subscribe( () => console.log('updated successfully'));
   }
 
 }

@@ -3,14 +3,8 @@ import {SimpleCard} from './card';
 export class Deck {
   name: string;
   cards: SimpleCard[] = [];
-  currentIndex = 0;
   constructor(name) {
     this.name = name;
-  }
-  getCard(next = 1) {
-    const card = this.cards[this.currentIndex];
-    this.currentIndex = Math.abs(this.currentIndex + next) % this.cards.length;
-    return card;
   }
 }
 

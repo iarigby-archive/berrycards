@@ -14,7 +14,7 @@ export class CardsComponent implements OnInit {
   ngOnInit() {
   }
   addCard(question, answer) {
-    this.currentDeck.cards.push(new SimpleCard(question, answer));
+    this.currentDeck.cards.push(new SimpleCard(question, answer, {"name":"none"}));
   }
 
 }

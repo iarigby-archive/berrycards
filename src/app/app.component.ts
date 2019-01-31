@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {Deck} from './deck';
 import {DeckService} from './deck.service';
 
@@ -8,8 +8,6 @@ import {DeckService} from './deck.service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  decks: Deck[] = this.deckService.getDecks();
-  constructor(
-    private deckService: DeckService
-  ) {}
+  constructor() {
+  }
 }

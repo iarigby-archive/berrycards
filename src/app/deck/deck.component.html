@@ -1,2 +1,5 @@
-<app-deck-preview [deck]="this.deck"> </app-deck-preview>
-<app-cards [currentDeck]="this.deck"></app-cards>
+<div style="padding: 20px">
+  <app-deck-preview [deck]="this.deck"> </app-deck-preview>
+  <app-cards [currentDeck]="this.deck"></app-cards>
+  <button (click)="update()">Save Deck</button>
+</div>
